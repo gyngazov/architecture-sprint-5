@@ -53,6 +53,7 @@ function Basic() {
         if (response) {
           // Получаем текстовое сообщение от бота
           const temp = response[0];
+          console.log("resp: ".concat(response));
           const recipient_id = temp["recipient_id"];
           const recipient_msg = temp["text"];
 

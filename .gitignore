@@ -1,3 +1,8 @@
+#rasa
+rasa_env
+node_modules
+rasa/models
+rasa/.rasa
 # dependencies
 
 /.pnp
